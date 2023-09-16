@@ -1,5 +1,9 @@
 
 
-main_input = input('test input')
 
-print(core_output)
+
+
+
+
+if __name__ == "__main__":
+    print("test")
