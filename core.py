@@ -4,6 +4,7 @@ from main import main_input
 # for module in modules:
 #     import module
 
+
 core_input = main_input
 
 core_output = core_input + ' it works!'
