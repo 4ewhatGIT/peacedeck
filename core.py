@@ -6,7 +6,4 @@ from main import main_input
 
 core_input = main_input
 
-core_input += ' it works!'
-
-
-core_output = list[str]
+core_output = core_input + ' it works!'
