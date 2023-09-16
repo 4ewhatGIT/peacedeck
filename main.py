@@ -1,10 +1,11 @@
 import json
-import core
 
+import core
 
 data = []
 main_input = ''
 main_output = ''
+
 
 def main():
     main_input = input('test: ')
@@ -24,6 +25,7 @@ def main():
         main_output = data["main_output"]
 
     print(main_output)
+
 
 if __name__ == '__main__':
     main()
