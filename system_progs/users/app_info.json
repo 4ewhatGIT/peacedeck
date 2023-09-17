@@ -1,0 +1,12 @@
+{
+  "title": {
+    "default": "System log in",
+    "english": "System log in",
+    "russian": "Вход в систему"
+  },
+  "version": "alpha0.1",
+  "description": {
+    "default": "None"
+  },
+  "developer": "NeykShon"
+}

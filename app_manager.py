@@ -10,3 +10,5 @@ def core():
     del configs_, language_pack_, language_pack
 
     print(f"{language['start']} {configs['product_name']}...")
+
+
