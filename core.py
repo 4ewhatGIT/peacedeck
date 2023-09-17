@@ -10,18 +10,29 @@ def debug(inpt):
     return inpt + ' it works'
 
 
-functions = [debug]
+def debug_2(inpt):
+    return '> ' + inpt + ''
 
 
-def update():
+def echo(inpt):
+    if ' > ' not in inpt:
+        return inpt
+    else:
+        with open(inpt.split(' > ')[1], 'w') as new_file:
+            new_file.write(inpt.split(' > ')[0])
+            new_file.close()
+            return f'Text was saved to {inpt.split(" > ")[1]}'
+
+
+def update(function):
     with open("core_transfer.json", 'r') as f:
         data = json.load(f)
         core_input = data["main_input"]
 
-    core_output = functions[0](core_input)
+    core_output = function(core_input)
 
     with open("core_transfer.json", 'w+') as f:
-        print(data)
+        # print(data)
         data['main_output'] = core_output
-        print(data)
+        # print(data)
         json.dump(data, f)
