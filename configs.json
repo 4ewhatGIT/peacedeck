@@ -1,4 +1,5 @@
 {
-  "PRODUCT_NAME": "PizeDesk",
-  "VERSION": "alpha0.1"
+  "product_name": "PizeDesk",
+  "version": "alpha0.2",
+  "current_language": "russian"
 }

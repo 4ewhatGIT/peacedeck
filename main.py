@@ -1,11 +1,5 @@
-import EventHandler
-
-
-
-
-
+import app_manager
 
 if __name__ == "__main__":
-    print("test")
-
-
+    print("start\n")
+    app_manager.core()
