@@ -6,7 +6,7 @@
   },
   "version": "alpha0.1",
   "description": {
-    "default": "None"
+    "default": false
   },
   "developer": "NeykShon"
 }

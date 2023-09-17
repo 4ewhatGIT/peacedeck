@@ -1,0 +1,12 @@
+{
+  "default_user": {
+    "name": {
+      "custom": false,
+      "default": "User",
+      "english": "User",
+      "russian": "Пользователь"
+    },
+    "password": false,
+    "acces": "admin"
+  }
+}
