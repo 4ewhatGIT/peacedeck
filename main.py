@@ -8,7 +8,7 @@ data = []
 main_input = ''
 main_output = ''
 
-functions = [core.debug, core.debug_2, core.echo]
+functions = {"debug" : core.debug, "debug_2" : core.debug_2, "echo" : core.echo}
 
 
 def main(current):
@@ -24,7 +24,7 @@ def main(current):
         json.dump(data, f)
 
     with open("core_transfer.json", 'r') as f:
-        core.update(functions[current])
+        core.update(functions.get(current))
         data = json.load(f)
         main_output = data["main_output"]
 
@@ -33,5 +33,5 @@ def main(current):
 
 if __name__ == '__main__':
     while turned_on:
-        current = int(input(f'select a funtion to use (0-{len(functions) - 1}):\n'))
+        current = input("> ").lower()
         main(current)

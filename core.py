@@ -29,7 +29,10 @@ def update(function):
         data = json.load(f)
         core_input = data["main_input"]
 
-    core_output = function(core_input)
+    try:
+        core_output = function(core_input)
+    except TypeError:
+        core_output = "Error: TypeError. Function name is probably invalid."
 
     with open("core_transfer.json", 'w+') as f:
         # print(data)
