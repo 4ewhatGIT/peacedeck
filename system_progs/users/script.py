@@ -18,7 +18,7 @@ if len(list(users_data)) >= 2:
                                  users_data[users_names_list_[i]]["id"]])
     del users_names_list_
 
-# print(users_names_list) debug
+print(users_names_list)  # debug
 
 print("")
 for i in range(len(users_names_list)):
