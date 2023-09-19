@@ -9,4 +9,14 @@ Peacedeck features :
 And more! 
 
 
+Functions Update 2.0 changelog:
+- Added New functions:
+  - echo <text> [> filename.ext] 
+    Outputs text into console window or to a file filename if used as echo > filename.ext
+  - debug <text>
+    Outputs text with "It works!" at the end. ex: debug text => text it works! 
+  - debug_2 <text>
+    Outputs text with "> " prefix Added. ex: debug_2 text => > text
+
+
 
