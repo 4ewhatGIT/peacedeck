@@ -1,0 +1,8 @@
+{
+  "english": {
+    "user_selection": "Enter user name or ID\n> "
+  },
+  "russian": {
+    "user_selection": "Введите имя пользователя или ID\n> "
+  }
+}
