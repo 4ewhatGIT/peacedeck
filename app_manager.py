@@ -14,7 +14,7 @@ def core():
     language_pack_.close()
 
     del configs_, language_pack_
-    language = language_pack[configs["current_language"]]
+    UI = language_pack[configs["current_language"]]
     del language_pack
 
-    print(f"{language['start']} {configs['product_name']}...")
+    print(f"{UI['start']} {configs['product_name']} {UI['version']} {configs['version']} ...")

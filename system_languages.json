@@ -1,8 +1,10 @@
 {
   "english": {
-    "start": "Starting"
+    "start": "Starting",
+    "version": "ver."
   },
   "russian": {
-    "start": "Запуск"
+    "start": "Запуск",
+    "version": "вер."
   }
 }

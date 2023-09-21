@@ -26,7 +26,7 @@ language_pack_ = open("languages.json", "r", encoding="utf-8")
 language_pack = json.load(language_pack_)
 language_pack_.close()
 del language_pack_
-language = language_pack[configs["current_language"]]
+UI = language_pack[configs["current_language"]]
 
 for i in range(len(users_names_list)):
     print(f"{users_names_list[i][1]}. {users_names_list[i][0]}")
