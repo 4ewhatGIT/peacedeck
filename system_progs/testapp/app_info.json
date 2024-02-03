@@ -1,0 +1,13 @@
+{
+  "title": {
+    "default": "User Registry",
+    "english": "User Registry",
+    "russian": "Реестр пользователей"
+  },
+  "version": "0.1",
+  "description": {
+    "default": "Users data",
+    "english": "Users data",
+    "russian": "Данные о пользователях"
+  }
+}
