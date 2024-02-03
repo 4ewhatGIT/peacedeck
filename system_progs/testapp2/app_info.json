@@ -1,0 +1,13 @@
+{
+  "title": {
+    "default": "pidoras asujdau!",
+    "english": "pidoras asujdau!",
+    "russian": "СВО"
+  },
+  "version": "0.1",
+  "description": {
+    "default": "Users data",
+    "english": "Users data",
+    "russian": "Данные о пользователях"
+  }
+}

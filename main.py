@@ -1,5 +1,5 @@
-import app_manager
+from app_manager import *
 
 if __name__ == "__main__":
     print("start\n")
-    app_manager.core()
+    initialize()
