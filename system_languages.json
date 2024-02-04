@@ -5,8 +5,7 @@
     "error_receiving_application_data": {
       "missed_title": "Missed title. Error code 0x00000001.",
       "missed_description": "Missed description. Error code 0x00000002.",
-      "missed_version": "Missed version. Error code 0x00000003.",
-      "missed_developer": "Missed developer or publisher. Error code 0x00000004"
+      "missed_version": "Missed version. Error code 0x00000003."
     }
   },
   "russian": {
@@ -15,8 +14,7 @@
     "error_receiving_application_data": {
       "missed_title": "Отсутствует заголовок. Код ошибки 0x00000001.",
       "missed_description": "Отсутствует описание. Код ошибки 0x00000002.",
-      "missed_version": "Отсутствует версия. Код ошибки 0x00000003.",
-      "missed_developer": "Отсутствует разработчик или издатель. Код ошибки 0x00000004"
+      "missed_version": "Отсутствует версия. Код ошибки 0x00000003."
     }
   }
 }

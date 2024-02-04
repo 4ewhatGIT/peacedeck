@@ -2,7 +2,11 @@ import json
 import os
 
 
-def code():
+def run():
+    nigga()
+
+
+def nigga():
     current_dir = os.path.dirname(os.path.abspath(__file__))
     configs_path = os.path.join(current_dir, "../../configs.json")
     configs_ = open(configs_path, "r", encoding="utf-8")
