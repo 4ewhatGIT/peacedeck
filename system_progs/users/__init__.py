@@ -6,5 +6,4 @@ import script
 
 
 def run():
-    run = script.Main()
-    run.collecting_data()
+    script.login()
