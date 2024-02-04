@@ -75,6 +75,20 @@ class Core:
                 is_correct = False
                 errors.append(Core.UI["error_receiving_application_data"]["missed_version"])
 
+            # Получение данных о разработчике
+            if "developer" in app_info:
+                packages[f"{i}"]["developer"] = app_info["developer"]
+            else:
+                is_correct = False
+                errors.append(Core.UI["error_receiving_application_data"]["missed_developer"])
+
+            # Получение данных об издателе
+            if "publisher" in app_info:
+                packages[f"{i}"]["publisher"] = app_info["publisher"]
+            else:
+                is_correct = False
+                errors.append(Core.UI["error_receiving_application_data"]["missed_developer"])
+
             if is_correct is False:
                 packages[f"{i}"]["error"] = errors
 
