@@ -75,7 +75,7 @@ class Core:
                 is_correct = False
                 errors.append(Core.UI["error_receiving_application_data"]["missed_version"])
 
-            if is_correct == False:
+            if is_correct is False:
                 packages[f"{i}"]["error"] = errors
 
         return packages
