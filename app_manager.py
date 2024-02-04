@@ -83,7 +83,7 @@ class Core:
     # Запуск скрипта пакета
     def run_script(self, package_name, function_name):
         package_path = os.path.join("system_progs", package_name)
-        spec = importlib.util.spec_from_file_location("script", os.path.join(package_path, "script.py"))
+        spec = importlib.util.spec_from_file_location("__init__", os.path.join(package_path, "__init__.py"))
         module = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(module)
         getattr(module, function_name)()
