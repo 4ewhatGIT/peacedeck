@@ -1,0 +1,17 @@
+{
+  "Amogus": {
+    "id": 1,
+    "password": "****",
+    "rights": "admin"
+  },
+  "Obed": {
+    "id": 2,
+    "password": false,
+    "rights": "user"
+  },
+  "Spartak": {
+    "id": 3,
+    "password": "7-8",
+    "rights": "admin"
+  }
+}
